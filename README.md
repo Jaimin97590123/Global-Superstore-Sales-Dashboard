@@ -5,15 +5,17 @@
 ![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge)
 
-## 📌 Project Overview
+---
 
-This project presents an interactive Power BI dashboard developed using the Global Superstore dataset.
+# 📌 Project Overview
 
-The dashboard enables users to analyse sales performance, profitability, customer behaviour, product performance and regional trends through interactive visualisations.
+This project presents an interactive **Power BI Sales Analytics Dashboard** built using the **Global Superstore** dataset.
+
+The dashboard enables business users to monitor sales performance, profitability, customer behaviour, product performance, market trends and regional operations through interactive visualisations and KPIs.
 
 ---
 
-## 🎯 Project Objectives
+# 🎯 Project Objectives
 
 - Analyse Total Sales and Profit
 - Monitor Customer Orders
@@ -21,77 +23,192 @@ The dashboard enables users to analyse sales performance, profitability, custome
 - Analyse Regional Performance
 - Evaluate Shipping Performance
 - Track Monthly Sales Trends
+- Compare Market Performance
+- Support Business Decision Making
 
 ---
 
-## 📊 Dashboard Pages
+# 📂 Dataset
 
-### 1️⃣ Executive Dashboard
+**Dataset:** Global Superstore
 
-Features:
+The dataset contains:
 
-- Total Sales KPI
-- Total Profit KPI
+- Orders
+- Customers
+- Products
+- Categories
+- Sub-Categories
+- Markets
+- Regions
+- Shipping Details
+- Sales
+- Profit
+- Quantity
+- Order Date
+
+---
+
+# 📊 Executive Dashboard
+
+![Executive Dashboard](Images/Executive dashboard.png)
+
+## Description
+
+The Executive Dashboard provides a high-level overview of overall business performance.
+
+### Key KPIs
+
+- Total Sales
+- Total Profit
 - Total Orders
 - Total Customers
+
+### Dashboard Features
+
 - Monthly Sales Trend
-- Top 10 Sub Categories
-- Market-wise Sales
-- Shipping Days
-- Top Products
-- Sales Map
+- Sales by Market
+- Top 10 Products
+- Top 10 Sub-Categories
+- Shipping Days by Region
+- Sales by Country
+- Year Filter
+
+### Business Value
+
+This dashboard enables management to quickly monitor business performance and identify sales trends, profitable markets and high-performing products.
 
 ---
 
-### 2️⃣ Product Details
+# 📦 Product Details Dashboard
 
-Features:
+![Product Dashboard](Images/Product dashboard.png)
+
+## Description
+
+The Product Details Dashboard provides detailed analysis of individual products and customer orders.
+
+### Dashboard Features
 
 - Product Filter
-- Customer Orders
+- Customer Order Details
 - Monthly Sales Trend
 - Product Sales by Region
+- Product Profit
+- Product Quantity
+
+### Business Value
+
+This dashboard helps identify the best-performing products, customer purchasing behaviour and regional product demand.
 
 ---
 
-### 3️⃣ Regional Analysis
+# 🌍 Regional Analysis Dashboard
 
-Features:
+![Regional Analysis](Images/Regional analysis.png)
 
-- Global Sales Distribution
-- Regional Profit
+## Description
+
+The Regional Analysis Dashboard focuses on geographical business performance.
+
+### Dashboard Features
+
+- Regional Sales Distribution
+- Regional Profit Analysis
 - Regional Performance Summary
-- Shipping Analysis
 - Average Shipping Days
+- Sales Distribution Map
+- Ship Mode Analysis
+
+### Business Value
+
+This dashboard helps management compare regional performance and identify opportunities for improving operational efficiency.
 
 ---
 
-## 🛠 Tools Used
+# 📈 Key Business Insights
+
+- Total Sales exceeded **£12.64 Million**
+- Total Profit exceeded **£1.46 Million**
+- More than **25,000 Orders** were analysed
+- More than **5,000 Customers** were served
+- Phones generated the highest sales among sub-categories
+- Central region demonstrated strong sales performance
+- Sales increased over the reporting period
+- Standard Class shipping required the highest average shipping time
+
+---
+
+# 🛠 Tools & Technologies
 
 - Microsoft Power BI
 - Power Query
 - DAX
 - CSV Dataset
+- Data Modelling
+- Data Visualisation
+- Business Intelligence
 
 ---
 
-## 📂 Repository Structure
+# 🎯 Skills Demonstrated
 
-```text
-Dashboard/
-Dataset/
-Documentation/
-Images/
-README.md
-LICENSE
+- Data Cleaning
+- Data Transformation
+- Dashboard Development
+- KPI Design
+- Interactive Reporting
+- Business Intelligence
+- Data Storytelling
+- Data Analysis
+- Visual Analytics
+
+---
+
+# 📁 Repository Structure
+
+```
+Global-Superstore-Sales-Dashboard
+│
+├── Images
+│   ├── Executive dashboard.png
+│   ├── Product dashboard.png
+│   └── Regional analysis.png
+│
+├── Global Superstore Sales.pbix
+├── Task_1_Dataset_Superstore.csv
+├── Global_Superstore_Project_Report_and_QA.pdf
+└── README.md
 ```
 
 ---
 
-## 👨‍💻 Author
+# 🚀 Future Improvements
 
-**Jaimin Valand**
+- Sales Forecasting
+- Drill-through Pages
+- Dynamic KPI Selection
+- Customer Segmentation
+- Advanced DAX Measures
+- Mobile Dashboard Optimisation
 
-MSc Computer Science (Distinction)
+---
 
-Data Analyst | Power BI | SQL | Python
+# 👨‍💻 Author
+
+## Jaimin Valand
+
+**Data Analyst | Power BI | SQL | Python**
+
+🎓 MSc Computer Science (Distinction)
+
+📍 London, United Kingdom
+
+### Connect With Me
+
+- **GitHub:** https://github.com/Jaimin97590123
+- **LinkedIn:** https://www.linkedin.com/in/jaimin-valand-29a351139/
+
+---
+
+⭐ If you found this project useful, consider giving it a **Star** on GitHub.
